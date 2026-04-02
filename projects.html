@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .project-card {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: blue;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<h2>My Projects</h2>
+
+<div class="projects-grid">
+
+  <!-- PROJECT 1 -->
+  <div class="project-card">
+    <img src="https://via.placeholder.com/300" alt="Project 1">
+    <h3>Portfolio Website</h3>
+    <p>My personal portfolio built using HTML and CSS.</p>
+    <a href="#">View Project</a>
+  </div>
+
+  <!-- PROJECT 2 -->
+  <div class="project-card">
+    <img src="https://via.placeholder.com/300" alt="Project 2">
+    <h3>Cybersecurity Study</h3>
+    <p>Research project on cyber threats and system protection.</p>
+    <a href="#">View Project</a>
+  </div>
+
+  <!-- PROJECT 3 -->
+  <div class="project-card">
+    <img src="https://via.placeholder.com/300" alt="Project 3">
+    <h3>Database Design</h3>
+    <p>Designed a simple database system structure.</p>
+    <a href="#">View Project</a>
+  </div>
+
+</div>
+
+</body>
+</html>
